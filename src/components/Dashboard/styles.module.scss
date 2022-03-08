@@ -1,0 +1,33 @@
+.card {
+    margin: auto;
+    width: 280px;
+    height: 400px;
+    background: var(--white);
+    margin-top: 100px;
+    border-radius: 15px;
+
+    P {
+        padding: 4px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+
+.text {
+    color: var(--grayish);
+    text-align: center;
+    font-size: 15px;
+}
+
+.image {
+
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+
+
+    > span {
+        border-radius: 10px;
+    }
+}
